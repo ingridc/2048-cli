@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-11 09:13-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gfx_terminal.c:47
+#, c-format
+msgid "   Hi: %ld\n"
+msgstr ""
+
+#: src/main.c:94 src/options.c:82
+#, c-format
+msgid "%ld\n"
+msgstr ""
+
+#: src/highscore.c:60
+#, c-format
+msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
+msgstr ""
+
+#: src/highscore.c:78
+#, c-format
+msgid "Please enter Yes or No\n"
+msgstr ""
+
+#: src/gfx_terminal.c:45
+#, c-format
+msgid "Score: %ld\n"
+msgstr ""
+
+#: src/gfx_terminal.c:43
+#, c-format
+msgid "Score: %ld (+%ld)\n"
+msgstr ""
+
+#: src/options.c:12
+#, c-format
+msgid "usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
+msgstr ""
