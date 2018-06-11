@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <locale.h>
+#include <libintl.h>
 #include "ai.h"
 #include "engine.h"
 #include "gfx.h"
+#define _(String) gettext(String)
 
 void draw_then_sleep(struct gfx_state *s, struct gamestate *g)
 {
@@ -13,6 +16,10 @@ void draw_then_sleep(struct gfx_state *s, struct gamestate *g)
 
 int main(int argc, char **argv)
 {
+    setlocale(LC_ALL, "");
+    bindtextdomain("2048", "po");
+    textdomain("2048");
+
     struct gamestate *g = gamestate_init(argc, argv);
     if (!g) {
         fatal("failed to allocate gamestate");
@@ -84,7 +91,7 @@ get_new_key:;
         gfx_destroy(s);
     }
 
-    printf("%ld\n", g->score);
+    printf(_("%ld\n"), g->score);
     gamestate_clear(g);
     return 0;
 }

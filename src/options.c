@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <locale.h>
+#include <libintl.h>
 #include "highscore.h"
 #include "options.h"
+#define _(String) gettext(String)
 
 void print_usage(void)
 {
-    printf("usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n");
+    printf(_("usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"));
 }
 
 
@@ -76,7 +79,7 @@ struct gameoptions* parse_options(struct gameoptions *opt, int argc, char **argv
             print_usage();
             exit(0);
         case 'H':
-            printf("%ld\n", highscore_load(NULL));
+            printf(_("%ld\n"), highscore_load(NULL));
             exit(0);
         }
     }
