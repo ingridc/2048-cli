@@ -1,0 +1,53 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ingrid <ingrid@ingrid-inspiron-5458>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-11 09:13-0300\n"
+"PO-Revision-Date: 2018-06-11 09:15-0300\n"
+"Last-Translator: Ingrid <ingrid@ingrid-inspiron-5458>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/gfx_terminal.c:47
+#, c-format
+msgid "   Hi: %ld\n"
+msgstr "Puntaje más alto: %ld\n"
+
+#: src/main.c:94 src/options.c:81
+#, c-format
+msgid "%ld\n"
+msgstr "%ld\n"
+
+#: src/highscore.c:60
+#, c-format
+msgid "Are you sure you want to reset your scores? Y(es) or N(o)\n"
+msgstr "Esta seguro que quiere reiniciar los puntajes? Y(si) o N(no)\n"
+
+#: src/highscore.c:78
+#, c-format
+msgid "Please enter Yes or No\n"
+msgstr "Por favor ingrese Si o No\n"
+
+#: src/gfx_terminal.c:45
+#, c-format
+msgid "Score: %ld\n"
+msgstr "         Puntaje: %ld\n"
+
+#: src/gfx_terminal.c:43
+#, c-format
+msgid "Score: %ld (+%ld)\n"
+msgstr "         Puntaje: %ld (+%ld)\n"
+
+#: src/options.c:12
+#, c-format
+msgid "usage: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
+msgstr "uso: 2048 [-cCaAiIrh] [-s SIZE] [-b RATE]\n"
